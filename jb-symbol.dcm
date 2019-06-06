@@ -4,4 +4,10 @@ $CMP LPC51U68JBD48
 D LPC51U68 48 pin LQFP
 $ENDCMP
 #
+$CMP SB2812-12XX
+D Tamura SB2812-12XX Transformer, single primary, dual secondary
+K transformer
+F ~
+$ENDCMP
+#
 #End Doc Library
