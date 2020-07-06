@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ICE40HX8K-CT256
+D iCE40 HX FPGA, 7680 LUTs, 1.2V, BGA-121
+K FPGA programmable logic
+F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
 $CMP LPC51U68JBD48
 D LPC51U68 48 pin LQFP
 $ENDCMP
