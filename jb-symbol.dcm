@@ -1,9 +1,38 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Conn_02x13_Counter_Clockwise
+D Generic connector, double row, 02x13, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP ICE40HX8K-CT256
 D iCE40 HX FPGA, 7680 LUTs, 1.2V, BGA-121
 K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
+$ENDCMP
+#
+$CMP LDS-A814RI
+D One digit 7 segment red, common anode
+K display LED 7-segment
+$ENDCMP
+#
+$CMP LM1117-2.5
+D 800mA Low-Dropout Linear Regulator, 2.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-3.3
+D 800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP LM1117-5.0
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
 $ENDCMP
 #
 $CMP LPC51U68JBD48
@@ -26,10 +55,67 @@ K 1727-2878-ND 74LVC
 F https://assets.nexperia.com/documents/data-sheet/74LVC4245A.pdf
 $ENDCMP
 #
+$CMP SST39SF010A_DIP32
+D 128K x 8 High-Speed CMOS Static RAM, 55/70ns, DIP-32/SSOP-32
+K RAM SRAM CMOS MEMORY
+F http://www.futurlec.com/Datasheet/Memory/628128.pdf
+$ENDCMP
+#
+$CMP TLV1117-15
+D 800mA Low-Dropout Linear Regulator, 1.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-18
+D 800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-25
+D 800mA Low-Dropout Linear Regulator, 2.5V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-33
+D 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
+$CMP TLV1117-50
+D 800mA Low-Dropout Linear Regulator, 5.0V fixed output, TO-220/TO-252/TO-263/SOT-223
+K linear regulator ldo fixed positive
+F http://www.ti.com/lit/ds/symlink/tlv1117.pdf
+$ENDCMP
+#
 $CMP ULN2803ADWR
 D TRANS 8NPN DARL 50V 0.5A 18SO
 K 296-15777-1-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a
+$ENDCMP
+#
+$CMP Z80-SIO-0
+D SCC Serial Communication Controller, DIP-40
+K SCC Serial Communication
+$ENDCMP
+#
+$CMP Z80CPU
+D 8-bit General Purpose Microprocessor, DIP-40
+K Z80 CPU uP
+F www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080
+$ENDCMP
+#
+$CMP Z80_CTC
+D Z80 CTC DIP-28
+K Z80 CTC
+$ENDCMP
+#
+$CMP Z8530
+D SCC Serial Communication Controller, DIP-40
+K SCC Serial Communication
 $ENDCMP
 #
 $CMP ‎74LVT245B
