@@ -12,6 +12,18 @@ K FPGA programmable logic
 F http://www.latticesemi.com/Products/FPGAandCPLD/iCE40
 $ENDCMP
 #
+$CMP IS61WV20488BLL-10TLI
+D SRAM - Asynchronous Memory IC 16Mb (2M x 8) Parallel 10 ns 44-TSOP II-44
+K SRAM MEMORY
+F https://www.issi.com/WW/pdf/61-64WV20488.pdf
+$ENDCMP
+#
+$CMP IS64C5128AL-12CTLA3
+D 512K x 8 HIGH-SPEED CMOS STATIC RAM, 12ns, TSOP II-44
+K SRAM MEMORY
+F http://www.issi.com/WW/pdf/61-64C5128AL.pdf
+$ENDCMP
+#
 $CMP LDS-A814RI
 D One digit 7 segment red, common anode
 K display LED 7-segment
