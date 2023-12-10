@@ -109,6 +109,11 @@ K 296-15777-1-ND
 F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fuln2803a
 $ENDCMP
 #
+$CMP USB4125-GF-A
+D CONN RCPT TYPE C 6P SMD RA
+F https://media.digikey.com/pdf/Data%20Sheets/GCT%20PDFs/USB4125%20-%20Product%20Drawing.pdf
+$ENDCMP
+#
 $CMP Z80-SIO-0
 D SCC Serial Communication Controller, DIP-40
 K SCC Serial Communication
